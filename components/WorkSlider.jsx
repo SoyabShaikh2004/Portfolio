@@ -13,9 +13,9 @@ const workSlides = {
     {
       images: [
         {
-          title: "Shoe Store",
+          title: "Shoes Store",
           path: "/Shoe-Store.png",
-          link: "https://shoe-store-nike.vercel.app",
+          link: "https://shoes-store-nike.vercel.app",
         },
         {
           title: "Kirana Billing",
@@ -56,12 +56,22 @@ const WorkSlider = () => {
                 key={imageI}
               >
                 <div className="flex items-center justify-center relative overflow-hidden group">
-                  {/* image */}
+                  {/* image wrapped in link */}
+                  <Link
+                    href={image.link}
+                    target="_blank"
+                    rel="noreferrer noopener"
+                    className="absolute inset-0 z-10"
+                    aria-label={`Open ${image.title} project`}
+                  >
+                    <span className="sr-only">Open {image.title} project</span>
+                  </Link>
                   <Image
                     src={image.path}
                     alt={image.title}
                     width={500}
                     height={300}
+                    className="pointer-events-none select-none"
                   />
 
                   {/* overlay gradient */}

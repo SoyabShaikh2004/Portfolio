@@ -11,21 +11,21 @@ const testimonialData = [
   {
     image: "/Laxmi.png",
     name: "Laxmi Jaiswar",
-    position: "Customer",
+    position: "Client",
     message:
       "Super modern design! I really liked the colors and how it works on my phone. Great job!",
   },
   {
     image: "/Malik.png",
     name: "Malik Shaikh",
-    position: "Customer",
+    position: "Client",
     message:
       "Very helpful for checking prices and items before visiting the store. Clean and simple layout.",
   },
   {
     image: "/Samir.png",
     name: "Samir Shaikh",
-    position: "Customer",
+    position: "Client",
     message:
       "The site looks amazing! I loved how easy it was to browse shoes. Everything is fast and smooth.",
   },

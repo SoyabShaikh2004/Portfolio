@@ -30,7 +30,7 @@ const Work = () => {
               className="mb-4 max-w-[400px] mx-auto lg:mx-0"
             >
               My deployed projects:-
-             <br/> 1️⃣ Shoe Store.
+             <br/> 1️⃣ Shoes Store.
              <br/> 2️⃣ Kirana Billing.
              <br/> 3️⃣ Cloth Store.
              <br/> 4️⃣ Free Fire.

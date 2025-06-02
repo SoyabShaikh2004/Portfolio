@@ -1,4 +1,5 @@
 import Link from "next/link";
+import { HiDownload } from "react-icons/hi";
 
 import {
   RiYoutubeLine,
@@ -40,7 +41,7 @@ const Socials = () => {
           href={social.link}
           target="_blank"
           rel="noreferrer noopener"
-          className={`${
+          className={`$${
             social.name === "Github"
               ? "bg-accent rounded-full p-[5px] mr-[80px] hover:text-white"
               : "hover:text-accent"
