@@ -25,7 +25,7 @@ export const socialData = [
   },
   {
     name: "Github",
-    link: "https://github.com/soyxbshxikh",
+    link: "https://github.com/soyabshaikh2004",
     Icon: RiGithubLine,
   },
 ];
